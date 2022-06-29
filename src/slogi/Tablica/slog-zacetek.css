@@ -1,0 +1,130 @@
+@media only screen and (pointer:coarse) and (min-width: 600px)  and (orientation: landscape) {
+    .zacetek {
+        background-color: #F5F5F5;
+        min-width: 500px;
+        max-width: 80vw;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .naslovnica-zacetek {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 35px;
+
+    }
+
+    .zacetek-nevidno {
+        margin-top: 0;
+        margin-bottom: -23px;
+        padding-right: 5px;
+        cursor: pointer;
+        width: 24px;
+        background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 17px;
+    }
+
+    .naslov-zacetek {
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 0;
+        margin: 0;
+        background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .jezik {
+        margin-top: 0;
+        margin-bottom: -23px;
+        padding-left: 5px;
+        cursor: pointer;
+        background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 17px;
+    }
+
+    .jezik:hover {
+        background-image: linear-gradient(to top, #00ecbc 0%, #007adf 100%);
+    }
+
+    .jezik:active {
+        font-size: 15px;
+    }
+
+
+    .besedilo {
+        min-width: 300px;
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        color: gray;
+    }
+
+    .vprasanje {
+        padding-left: 60px;
+    }
+
+    .vnosnik {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .vnosnik-imena {
+        font-family: "Inter", sans-serif;
+        border: 1px solid #D5D4D8;
+        height: 45px;
+        border-radius: 5px;
+        width: 350px;
+        text-indent: 5px;
+    }
+
+    .vnosnik2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .napaka {
+        text-align: center;
+        padding-bottom: 30px;
+        color: red;
+        margin: 0;
+        padding-top: 12px;
+    }
+
+    .nosilec-gumba {
+        display: flex;
+        justify-content: center;
+    }
+
+    .potrdi {
+        border-radius: 10px;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        padding: 12px 50px;
+        border: none;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .potrdi:hover {
+        background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+    }
+
+    .potrdi:active {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,41 @@
+@media screen and (pointer: fine) and (min-width: 630px) and (max-width: 1024px) and (min-height: 505px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    }
+}
+
+/* Najmanjse */
+@media screen and (pointer: fine)  {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    }
+}

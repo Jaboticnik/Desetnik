@@ -1,0 +1,22 @@
+@media only screen and (pointer:coarse) and (min-width: 245px)  and (orientation: portrait) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100%;
+        margin: 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #29539b;
+        background: -webkit-linear-gradient(45deg, #09009f, #00ff95 100%);
+        padding: .6vh .2vh;
+        font-family: Inter, sans-serif;
+        display: flex;
+        justify-content: center;
+
+    }
+}

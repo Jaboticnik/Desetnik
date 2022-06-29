@@ -1,0 +1,210 @@
+@media only screen and (pointer:coarse) and (min-width: 600px)  and (orientation: landscape) {
+    .glavno {
+        margin-top: 3px;
+        margin-bottom: auto;
+        background-color: #F5F5F5;
+        /*Tu lah dam min height*/
+        min-width: 50vw;
+        max-width: 98vw;
+        max-height: 100vh;
+        border-radius: 5px;
+        padding: 20px;
+
+    }
+
+    .vsebina-igre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .ime-osebe {
+        display: flow;
+        margin-left: auto;
+        font-size: 15px;
+        margin-bottom: 60px;
+        margin-top: -180px;
+    }
+
+    .Naslov {
+        font-family: 'Karla', sans-serif;
+        margin: 0;
+        font-size: 4vw;
+        margin-top: 0px;
+        margin-bottom: 120px;
+        background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    #imeosebe {
+        color: blue;
+        font-size: 15px;
+        font-weight: bold;
+        background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    .Navodila {
+        min-width:300px;
+        max-width:400px;
+        text-align:center;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        color: gray;
+        font-size: 17px;
+    }
+
+    .kocke {
+        margin-top: -40px;
+        display: grid;
+        grid-template: auto auto / repeat(5, 1fr);
+        gap: 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .kocka {
+        display: grid;
+        grid-template-areas:
+		"a . c"
+		"e g f"
+		"d . b";
+        place-content: center;
+        gap: 5px;
+        width: 80px;
+        height: 80px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 24px;
+        cursor: pointer;
+    }
+
+    .pika {
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color:rgb(5, 24, 63);
+    }
+
+    .pika:nth-child(2) {
+        grid-area: b;
+    }
+    .pika:nth-child(3) {
+        grid-area: c;
+    }
+    .pika:nth-child(4) {
+        grid-area: d;
+    }
+    .pika:nth-child(5) {
+        grid-area: e;
+    }
+    .pika:nth-child(6) {
+        grid-area: f;
+    }
+
+    /* This selects the last die of odd-valued dice (1, 3, 5) and positions the die in the center */
+    .pika:nth-child(odd):last-child {
+        grid-area: g;
+    }
+
+
+
+
+    .Sprememba {
+        border-radius: 8px;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        padding: 8px 30px;
+        border: none;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+
+    .Sprememba:hover {
+        outline: none;
+        background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+    }
+
+    .Sprememba:active {
+        font-size: 16px;
+    }
+
+    .stevnik-premesav {
+        margin-left: auto;
+        padding: 0;
+        margin-top: -25px;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    #premesava {
+        background-color: #0093E9;
+        background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    /color: #00308F;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .stevnik-casovnik {
+        margin-left: auto;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    #cas {
+        background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .stevnik-najboljsi-cas {
+        margin-left: auto;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #najboljsicas {
+        background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .Ponastavitev {
+        height: 30px;
+        margin-right: auto;
+        padding: 0;
+        margin-top: -40px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+}
+

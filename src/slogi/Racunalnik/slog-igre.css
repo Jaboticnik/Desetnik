@@ -1,0 +1,193 @@
+@media screen and (min-width: 1024px)  {
+.vsebina-igre {
+    background-color: #F5F5F5;
+    height: 700px;
+    max-width: 1300px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Naslov {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    font-size: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ime-osebe {
+    display: flow;
+    margin-left: auto;
+    padding-bottom: 55px;
+    margin-top: -190px;
+}
+
+#imeosebe {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.Navodila {
+    min-width:300px;
+    max-width:700px;
+    text-align:center;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 30px;
+}
+
+.kocke {
+    margin-top: -40px;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.kocka {
+    display: grid;
+    grid-template-areas:
+        "a . c"
+        "e g f"
+        "d . b";
+    place-content: center;
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.pika {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgb(5, 24, 63);
+}
+
+.pika:nth-child(2) {
+    grid-area: b;
+}
+.pika:nth-child(3) {
+    grid-area: c;
+}
+.pika:nth-child(4) {
+    grid-area: d;
+}
+.pika:nth-child(5) {
+    grid-area: e;
+}
+.pika:nth-child(6) {
+    grid-area: f;
+}
+
+/* This selects the last die of odd-valued dice (1, 3, 5) and positions the die in the center */
+.pika:nth-child(odd):last-child {
+    grid-area: g;
+}
+
+
+
+
+.Sprememba {
+    border-radius: 10px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 12px 50px;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Sprememba:hover {
+    outline: none;
+    background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+}
+
+.Sprememba:active {
+    font-size: 18px;
+}
+
+.stevnik-premesav {
+    margin-left: auto;
+    padding: 0;
+    margin-top: -120px;
+    margin-bottom: 0;
+}
+
+#premesava {
+    background-color: #0093E9;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #00308F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stevnik-casovnik {
+    margin-left: auto;
+    padding: 0;
+    margin-top: -60px;
+    margin-bottom: 0;
+}
+
+#cas {
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stevnik-najboljsi-cas {
+    margin-left: auto;
+    padding: 0;
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+
+#najboljsicas {
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Ponastavitev {
+    height: 30px;
+    margin-right: auto;
+    padding: 0;
+    margin-top: -90px;
+    margin-left: -15px;
+    margin-bottom: -25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+}

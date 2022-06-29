@@ -1,0 +1,20 @@
+@media only screen and (pointer:coarse) and (min-width: 600px)  and (orientation: landscape) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: -webkit-linear-gradient(45deg, #09009f, #00ff95 100%);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 20px;
+        font-family: Inter, sans-serif;
+        display: flex;
+        justify-content: center;
+
+        height: 100%;
+    }
+}

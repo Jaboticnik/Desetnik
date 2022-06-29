@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Desetnik/static/css/main.f298a473.css",
+    "main.js": "/Desetnik/static/js/main.78acbb6c.js",
+    "static/media/odjava.png": "/Desetnik/static/media/odjava.a7cf3408bec8b53aa303.png",
+    "index.html": "/Desetnik/index.html",
+    "main.f298a473.css.map": "/Desetnik/static/css/main.f298a473.css.map",
+    "main.78acbb6c.js.map": "/Desetnik/static/js/main.78acbb6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f298a473.css",
+    "static/js/main.78acbb6c.js"
+  ]
+}

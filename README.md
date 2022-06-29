@@ -1,5 +1,5 @@
 # Stržen Desetnik
-Priljubljena ljudska igra s kockami.
+Priljubljena ljudska igra s kockami. Na voljo v 2 jezikih.
 Navodila:
 Premešaj dokler vsa števila na kockah niso enaka.
 Pritisni na eno od kock, da jo zamrzneš pri premešanju.

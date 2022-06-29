@@ -62,7 +62,8 @@
     "nanoid": "^3.1.28",
     "react-confetti": "^6.1.0",
     "react-hook-usewindowsize": "^1.0.1",
-    "react-hot-toast": "^2.2.0"
+    "react-hot-toast": "^2.2.0",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "node scripts/start.js",

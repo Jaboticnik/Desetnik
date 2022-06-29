@@ -13,4 +13,5 @@ Začetni zaslon:
 <img src="https://media.discordapp.net/attachments/903312995294277672/991672557021450360/unknown.png">
 <br>
 Igra:
+<br>
 <img src="https://media.discordapp.net/attachments/903312995294277672/991672557021450360/unknown.png">

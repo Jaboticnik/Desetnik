@@ -1,6 +1,8 @@
 # Stržen Desetnik
 Priljubljena ljudska igra s kockami. Na voljo v 2 jezikih.
 <br>
+<a href='desetnik.strzen.si'>Predogled</a>
+<br>
 Navodila:
 Premešaj dokler vsa števila na kockah niso enaka.
 Pritisni na eno od kock, da jo zamrzneš pri premešanju.
